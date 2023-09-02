@@ -1,0 +1,214 @@
+﻿/***************************************/ /* Start Style All */
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/***************************************/ /* End Style All */
+
+
+/***************************************/ /* Start Style Scroll */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+/***************************************/ /* End Style Scroll */
+
+
+/***************************************/ /* Start Style App */
+#app {
+    width: 100vw;
+    height: 100vh;
+}
+/***************************************/ /* End Style App */
+
+
+/***************************************/ /* Start Style Header */
+.header {
+    width: 100%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-arrow-left-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-arrow-left {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+    .button-arrow-left:hover {
+        background-color: #eee;
+    }
+
+.icon-arrow-left {
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.text-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    -webkit-app-region: drag;
+}
+
+.close-minimize {
+    display: flex;
+}
+
+.window-minimize {
+    width: 40px;
+    height: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: gray;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    .window-minimize:hover {
+        background-color: #eee;
+    }
+
+.window-close {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: gray;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+    .window-close:hover {
+        background-color: #eee;
+    }
+/***************************************/ /* End Style Header */
+
+
+/***************************************/ /* Start Style Content */
+.content {
+    width: 100%;
+    height: 94%;
+}
+
+.section-locations {
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.section-single-location {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    cursor: pointer;
+}
+
+    .section-single-location:hover {
+        background-color: #eee;
+    }
+
+.section-image-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.image-signle-location {
+    width: 12%;
+    height: 60%;
+    margin-right: 10px;
+    border-radius: 1000px;
+}
+
+.text-signle-location {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.icon-signle-location {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-content {
+    width: 100%;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-color: #0072ff;
+}
+
+    .footer-content:hover {
+        background-color: #0092ff;
+    }
+
+        .footer-content:hover .text-footer-go-premium {
+            color: #f3f3f3;
+        }
+
+        .footer-content:hover .text-footer-get-unlimited {
+            color: #f3f3f3;
+        }
+
+.text-footer-go-premium {
+    color: white;
+    font-size: 15px;
+}
+
+.text-footer-get-unlimited {
+    color: white;
+    font-size: 14px;
+}
+/***************************************/ /* End Style Content */

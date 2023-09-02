@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Settings</title>
+    <!-- Start Font Awesome -->
+    <link rel="stylesheet" href="./Assets/FontAwesome/css/all.min.css">
+    <!-- End Font Awesome -->
+    <!-- Start Custom Css -->
+    <link rel="stylesheet" href="./Assets/CustomCssJs/Settings.css">
+    <!-- End Custom Css -->
+</head>
+
+<body>
+    <!-- Start Section App -->
+    <section id="app">
+        <section class="header">
+            <section class="button-arrow-left-header">
+                <section class="button-arrow-left">
+                    <span class="fas fa-arrow-left icon-arrow-left"></span>
+                </section>
+                <section class="text-header">
+                    <p>Settings</p>
+                </section>
+            </section>
+
+            <section class="close-minimize">
+                <span class="fas fa-window-minimize window-minimize"></span>
+                <span class="fas fa-times window-close"></span>
+            </section>
+        </section>
+
+        <section class="content">
+            <section class="section-general">
+                <section class="section-inner-general">
+                    <h1 class="text-heding-general">General</h1>
+                </section>
+
+                <section class="section-inner-general">
+                    <p class="text-general">Reconnect automatically</p>
+                    <input type="checkbox" checked />
+                </section>
+
+                <section class="section-inner-general">
+                    <p class="text-general">Prevent IP Leak</p>
+                    <input type="checkbox" checked />
+                </section>
+
+                <section class="section-inner-general">
+                    <p class="text-general">Kill Switch</p>
+                    <input type="checkbox" />
+                </section>
+            </section>
+
+            <section class="section-automatically-turn">
+                <section class="section-inner-automatically-turn">
+                    <h1 class="text-heding-automatically-turn">Automatically turn VPN ON, when connected to</h1>
+                </section>
+
+                <section class="section-inner-automatically-turn">
+                    <p class="text-automatically-turn">Unsafe WiFi Hotspots</p>
+                    <input type="checkbox" />
+                </section>
+
+                <section class="section-inner-automatically-turn">
+                    <p class="text-automatically-turn">Safe WiFi Hotspots</p>
+                    <input type="checkbox" />
+                </section>
+            </section>
+
+            <section class="section-pages">
+                <section class="section-exclude-domains button-exclude-domains">
+                    <p class="text-pages">Exclude domains</p>
+                    <p>></p>
+                </section>
+
+                <section class="section-vpn-protocol button-vpn-protocol">
+                    <p class="text-pages">VPN protocol</p>
+                    <p>></p>
+                </section>
+            </section>
+        </section>
+    </section>
+    <!-- End Section App -->
+</body>
+
+<section>
+    <!-- Start Custom Js -->
+    <script src="./Assets/CustomCssJs/Settings.js"></script>
+    <!-- End Custom Js -->
+</section>
+</html>

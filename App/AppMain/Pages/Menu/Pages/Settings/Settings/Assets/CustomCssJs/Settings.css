@@ -1,0 +1,212 @@
+﻿/***************************************/ /* Start Style All */
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/***************************************/ /* End Style All */
+
+
+/***************************************/ /* Start Style App */
+#app {
+    width: 100vw;
+    height: 100vh;
+}
+/***************************************/ /* End Style App */
+
+
+/***************************************/ /* Start Style Header */
+.header {
+    width: 100%;
+    height: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button-arrow-left-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-arrow-left {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+    .button-arrow-left:hover {
+        background-color: #eee;
+    }
+
+.icon-arrow-left {
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.text-header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: gray;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+    -webkit-app-region: drag;
+}
+
+.close-minimize {
+    display: flex;
+}
+
+.window-minimize {
+    width: 40px;
+    height: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: gray;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+    .window-minimize:hover {
+        background-color: #eee;
+    }
+
+.window-close {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: gray;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+    .window-close:hover {
+        background-color: #eee;
+    }
+/***************************************/ /* End Style Header */
+
+
+/***************************************/ /* Start Style Content */
+.content {
+    width: 100%;
+    height: 94%;
+}
+
+.section-general {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px 30px;
+    border-bottom: 1px solid #aaa;
+}
+
+.section-inner-general {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.text-heding-general {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.text-general {
+    font-size: 15px;
+}
+
+.section-automatically-turn {
+    width: 100%;
+    height: 35%;
+    padding: 10px 30px;
+    border-bottom: 1px solid #aaa;
+}
+
+.section-inner-automatically-turn {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.text-heding-automatically-turn {
+    font-size: 18px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.text-automatically-turn {
+    font-size: 15px;
+}
+
+.section-pages {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.section-exclude-domains {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 30px 30px;
+    border-bottom: 1px solid #aaa;
+}
+
+    .section-exclude-domains:hover {
+        background-color: #eee;
+    }
+
+.section-vpn-protocol {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 30px 30px;
+    border-bottom: 1px solid #aaa;
+}
+
+    .section-vpn-protocol:hover {
+        background-color: #eee;
+    }
+
+.text-pages {
+    font-size: 16px;
+    font-weight: 600;
+}
+/***************************************/ /* End Style Content */
